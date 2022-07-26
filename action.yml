@@ -4,6 +4,8 @@ author: 'Bo-Yi Wu'
 inputs:
   host:
     description: 'ssh host'
+  cp:
+    description: 'to create file in runner'
   port:
     description: 'ssh port'
     default: 22
