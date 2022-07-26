@@ -4,5 +4,5 @@ set -eu
 
 export GITHUB="true"
 
-#sh -c "/bin/drone-ssh $*"
-sh -c "ls"
+sh -c "/bin/drone-ssh $*"
+
