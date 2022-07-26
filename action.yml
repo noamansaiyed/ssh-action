@@ -29,6 +29,7 @@ inputs:
     default: "10m"
   key:
     description: 'content of ssh private key. ex raw content of ~/.ssh/id_rsa'
+    default: ~/.ssh/id_rsa
   key_path:
     description: 'path of ssh private key'
   fingerprint:
